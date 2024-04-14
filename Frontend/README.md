@@ -28,4 +28,4 @@ This project is licensed under the [MIT License](LICENSE).
 We would like to acknowledge the contributions of all our team members and the support of the open-source community in making this project possible. Thank you for your continued support and feedback!
 
 ## Contact
-For any inquiries or feedback, please reach out to [email@example.com](mailto:email@example.co). We'd love to hear from you!
+For any inquiries or feedback, please reach out to [sharmadev13579@gmail.com](mailto:sharmadev13579@gmail.com). We'd love to hear from you!
