@@ -1,7 +1,7 @@
 # Shadow Mart
 
 ## Description
-This project aims to provide a comprehensive solution for [describe what your project does]. As part of this endeavor, we have successfully implemented the homepage route with a focus on delivering an enhanced user interface (UI) experience. 
+This project aims to provide a comprehensive solution for E-commerce Data Mangement. As part of this endeavor, we have successfully implemented the homepage route with a focus on delivering an enhanced user interface (UI) experience. 
 
 ## Features
 - **Homepage Route Implementation**: The homepage route has been seamlessly integrated into the project.
