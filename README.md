@@ -39,6 +39,7 @@ This project aims to develop an e-commerce analytics dashboard to assist online 
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - Data Visualization: React libraries (e.g., Chart.js, D3.js)
+- NodeMailer for sending mails to reducing cart abandonment.
 - E-commerce Platform Integration: Custom integration for seamless access within the e-commerce site's admin panel
 
 ## Installation and Setup
