@@ -10,7 +10,7 @@ This project aims to develop an e-commerce analytics dashboard to assist online 
 
 ### 2. Customer Segmentation
 - Segment customers based on demographics, purchase history, and product recommendations.
-- Present monthly expenditure graphs to visualize spending patterns.
+- Present monthly expenditure graph to visualize spending patterns.
 
 ### 3. Product Performance Analysis
 - Analyze sales trends and product profitability.
