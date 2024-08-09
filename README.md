@@ -8,7 +8,7 @@ This project aims to develop an e-commerce analytics dashboard to assist online 
 - Display key performance indicators such as total revenue, average order value, conversion rates, and customer lifetime value.
 - Provide trend analysis and benchmarking against historical data or industry standards.
 
-### 2. Customer Segmentation
+### 2. Customer Segmentation 
 - Segment customers based on demographics, purchase history, and product recommendations.
 - Present monthly expenditure graph to visualize spending patterns.
 
