@@ -40,7 +40,7 @@ This project aims to develop an e-commerce analytics dashboard to assist online 
 - Database: MongoDB
 - Data Visualization: React libraries (e.g., Chart.js, D3.js)
 - NodeMailer for sending mails to reducing cart abandonment.
-- E-commerce Platform Integration: Custom integration for seamless access within the e-commerce site's admin panel
+- E-commerce Platform Integration: Custom integration for seamless access within the e-commerce site's admin panel.
 
 ## Installation and Setup
 Since the dashboard is integrated into the e-commerce site, there's no separate installation required. Simply login to the e-commerce site's admin panel to access the dashboard.
