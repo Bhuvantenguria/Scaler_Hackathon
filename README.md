@@ -29,6 +29,7 @@ This project aims to develop an e-commerce analytics dashboard to assist online 
 - Identify product improvements, resolve issues, and enhance overall customer satisfaction.
 
 ## Usage
+
 1. **Accessing the Dashboard**: The dashboard is seamlessly integrated into the e-commerce site's admin panel or backend system.
 2. **Navigating the Dashboard**: Login to the e-commerce site's admin panel and navigate to the analytics section to access the dashboard.
 3. **Analytics**: Explore various analytics modules to gain insights into sales performance, customer behavior, and feedback.
