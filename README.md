@@ -3,7 +3,6 @@
 This project aims to develop an e-commerce analytics dashboard to assist online retailers in analyzing customer behavior, tracking sales performance, and optimizing marketing strategies. The dashboard is seamlessly integrated into the e-commerce site to provide real-time insights for business growth.
 
 ## Features List 
-
 ### 1. Sales Performance Metrics
 - Display key performance indicators such as total revenue, average order value, conversion rates, and customer lifetime value.
 - Provide trend analysis and benchmarking against historical data or industry standards.
