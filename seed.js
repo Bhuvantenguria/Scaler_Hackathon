@@ -3,6 +3,7 @@ const Product = require('./Models/Product');
 
 const products = [
     {
+        
         name: 'Laptop',
         img: 'https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D',
         price: 35000,
