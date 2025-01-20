@@ -1,0 +1,202 @@
+/* Common styles for all devices */
+.register-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 60vw;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: auto;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.register-form {
+  flex: 1;
+  padding: 20px;
+}
+
+.register-form-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  margin-top: 5vh;
+  font-family: "Playfair Display", serif;
+  color: #facc6b;
+}
+
+.register-form-step .form-group {
+  margin-bottom: 15px;
+}
+
+.register-form-step .form-control {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.create-account-link {
+  margin-top: 12px;
+  font-size: 14px;
+
+  text-align: center;
+  align-content: center;
+}
+.register-form-step .btn {
+  display: block;
+  width: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #facc6b;
+  color: #fff;
+  border: none;
+  margin: auto;
+  margin-top: 12px;
+}
+
+.register-form-step .btn:hover {
+  background-color: #f4ac32;
+}
+
+.register-form-step .btn-secondary {
+  background-color: #6c757d;
+}
+
+.register-form-step .btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.register-button {
+  display: flex;
+}
+
+.register-steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  /* margin-bottom: 20px; */
+  position: relative;
+  z-index: 2;
+}
+
+.register-step {
+  width: 40px;
+  height: 40px;
+  margin-left: 8px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #facc6b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  position: relative;
+}
+
+.register-step.active {
+  background-color: #f4ac32;
+}
+
+/* .line-connect {
+  color: #f69d03;
+  z-index: 1;
+  position: absolute;
+  width: 200px;
+  height: 1px;
+  background-color: #fea305;
+} */
+
+/* Styles for desktop and tablet devices */
+.step-title {
+  color: rgb(195, 193, 193);
+  font-size: 16px;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.register-step:after {
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: #f4ac32;
+  position: absolute;
+  left: 0;
+  top: 21px;
+  z-index: -1;
+}
+.register-step::before {
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: #f4ac32;
+  position: absolute;
+  right: 0;
+  top: 21px;
+  z-index: -1;
+}
+.active-title {
+  color: black;
+}
+@media (min-width: 769px) {
+  .register-form-container {
+    height: 400px;
+  }
+
+  .register-form-image {
+    flex: 1;
+    text-align: center;
+  }
+
+  .register-form-image img {
+    max-width: 550px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .register-form-image {
+    display: block;
+  }
+
+  .register-form-container {
+    max-width: 90vw;
+    height: 400px;
+  }
+  .register-step::before {
+    content: "";
+    width: 100px;
+  }
+  .register-step::after {
+    content: "";
+    width: 100px;
+  }
+  .register-form-image img {
+    max-width: 300px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .register-form-image {
+    display: none;
+  }
+  .register-step::before {
+    content: "";
+    width: 80px;
+  }
+  .register-step::after {
+    content: "";
+    width: 80px;
+  }
+  .register-form-container {
+    max-width: 90vw;
+    height: 400px;
+  }
+}

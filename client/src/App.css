@@ -1,0 +1,19 @@
+/* Define scrollbar styles */
+::-webkit-scrollbar {
+  width: 4px;
+  display: none; /* Hide the scrollbar by default */
+}
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background: #ffb84d;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fba728;
+}

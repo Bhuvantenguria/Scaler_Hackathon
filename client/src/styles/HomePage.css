@@ -1,0 +1,455 @@
+.custom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* margin: 0 20px; */
+  margin-top: 2rem;
+}
+.homepage-sections {
+  margin: 0 80px;
+}
+.Filter-section {
+  display: flex;
+  /* margin: 0 70px; */
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; /* Added to allow content to wrap to the next line */
+}
+
+.filters {
+  background-color: rgb(248, 245, 245);
+  border-radius: 25px;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 16px; /* Add padding for better spacing */
+}
+
+.filter-price {
+  flex: 1; /* Ensure the content takes the full width */
+  text-align: center; /* Center text content */
+}
+.filter-sort {
+  flex: 1;
+  margin-top: 16px; /* Add some top margin for separation */
+}
+
+.filter-button {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.custom-toggler {
+  margin-bottom: 1rem;
+}
+
+.custom-heading {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: gray;
+  text-align: center; /* Center the text */
+  margin: 0.5rem; /* Adjust as needed */
+}
+
+.custom-category,
+.custom-button,
+.custom-reset-button {
+  color: gray;
+
+  text-align: center;
+  font-weight: 300;
+
+  font-size: 1rem;
+  margin: 0.5rem; /* Adjust as needed */
+}
+.custom-category,
+.custom-heading {
+  cursor: pointer;
+}
+
+.custom-filter-content {
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .custom-container.column {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+.menu-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.sort-label {
+  font-weight: bold;
+}
+
+.sort-radio {
+  margin-right: 8px; /* Add some right margin for spacing */
+}
+
+/* Add this CSS for fixed button size with an icon inside */
+.custom-button {
+  width: 150px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Add this CSS for icon styling inside the button */
+.custom-button i {
+  margin-right: 0.5rem; /* Adjust as needed */
+}
+
+/* Fot the banner CSS */
+/* Banner.css */
+
+/* Banner.css */
+
+.banners {
+  background-color: #ffb84d;
+  position: relative;
+  overflow: hidden;
+  height: 92vh;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+  .banners {
+    height: 30vh; /* Change the height to 30vh for mobile devices */
+  }
+
+  .custom-card {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin: 15px;
+  }
+  .filter-category {
+    display: flex;
+    flex-direction: column;
+  }
+  .filter-button {
+    flex-direction: column;
+  }
+}
+
+/* .special-card {
+    height: 20vh;
+  }
+  .special-card .col {
+    height: 100%;
+  } */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 0;
+}
+
+.card {
+  border: none;
+  margin-top: 5px;
+  transition: transform 0.3s ease-in-out;
+  width: 350px;
+  height: 3%;
+  border: black solid 2px;
+}
+
+/* .card:hover {
+    transform: scale(1.05);
+  } */
+
+.col {
+  display: flex; /* Add flex display to the column */
+  justify-content: space-around;
+}
+
+.navbar {
+  border: none !important;
+}
+.custom-card {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+  margin: 5px;
+  border: rgb(216, 218, 216) 1px solid;
+}
+.product-card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 10px;
+  /* border: black 1px solid; */
+}
+
+.category-img {
+  width: 100%;
+  height: 100%;
+  object-fit: f;
+  transition: transform 0.3s ease-in-out;
+}
+.product-img {
+  width: 100%;
+  height: 80%;
+
+  object-fit: fill;
+  transition: transform 0.3s ease-in-out;
+}
+.text-overlay {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  opacity: 1;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.custom-card:hover .shop-now {
+  top: 80%; /* Move the shop-now link to the original position of the text-overlay */
+  opacity: 1;
+}
+.custom-card:hover {
+  /* filter: grayscale(100%); */
+}
+
+.product-card:hover .shop-now {
+  top: 80%; /* Move the shop-now link to the original position of the text-overlay */
+  opacity: 1;
+}
+.filter-price {
+  padding: 10px;
+  margin: 5px 2px;
+}
+
+.banner-content {
+  margin: 28vh;
+  margin-top: 10vh;
+  display: flex;
+}
+
+.banner-content img {
+  height: 550px;
+  border-radius: 20px;
+  width: 450px; /* Adjust the width as needed */
+}
+
+.banner-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  padding-left: 10px;
+}
+.banner-text h2 {
+  font-size: 32px; /* Adjust the font size as needed */
+  color: #333; /* Adjust the color as needed */
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+.banner-text p {
+  font-size: 16px; /* Adjust the font size as needed */
+  color: #333; /* Adjust the color as needed */
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-content {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner-content img {
+    max-width: 100px;
+    height: 100px;
+  }
+
+  .banner-text {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .banner-text h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+
+  .banner-text p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+}
+.custom-card {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+}
+
+.custom-card .card-body {
+  text-align: center;
+}
+
+.category-img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.card-title {
+  margin-top: 10px;
+}
+
+.shop-now {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #f8ce42;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.shop-now {
+  position: absolute;
+  top: 100%; /* Initially positioned below the card */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  opacity: 0;
+  font-weight: 200;
+  font-size: 12px;
+  transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.shop-now:hover {
+  background-color: #f8ce42;
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+.products-section {
+  justify-content: space-around;
+  align-items: center;
+}
+.facility__section {
+  background-color: rgb(240, 238, 238);
+  padding: 2rem 0;
+}
+
+.facility__container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.facility__box {
+  text-align: center;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.facility__box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.facility-img__container {
+  position: relative;
+  display: inline-block;
+  line-height: 9.5rem;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 1.5px solid white;
+  margin-bottom: 1.6rem;
+  overflow: hidden;
+}
+
+.facility-img__container img {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  perspective: 4000;
+}
+
+.facility-img__container.call img {
+  width: 70px;
+  height: 70px;
+}
+
+.facility-img__container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0.7rem;
+  background-color: white;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.facility__box:hover img {
+  transform: rotateY(180deg);
+}
+
+/* Media Queries */
+@media only screen and (max-width: 998px) {
+  .facility__container {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3rem;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .facility__container {
+    grid-template-columns: 1fr;
+  }
+
+  .facility-img__container {
+    width: 7rem;
+    height: 7rem;
+    line-height: 8.5rem;
+  }
+
+  .facility__container p {
+    font-size: 1.4rem;
+  }
+}
+.loadmore-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10vh;
+}

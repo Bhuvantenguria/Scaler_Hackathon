@@ -1,0 +1,17 @@
+/* ../../styles/Layout.css */
+
+.footer {
+  background-color: yellow; /* Set the background color to yellow */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.footer .footer-link {
+  color: #000; /* Set the default color */
+  text-decoration: none;
+  transition: color 0.3s; /* Add a smooth transition effect for color change */
+}
+
+.footer .footer-link:hover {
+  color: #007bff; /* Change the color on hover */
+  background-color: #ffb84d; /* Add a smooth transition effect for background color change */
+}

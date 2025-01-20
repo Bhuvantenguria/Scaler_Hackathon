@@ -1,0 +1,20 @@
+.card-b:hover {
+  transform: scale(1.05);
+}
+
+.cat-btn {
+  display: block;
+  width: 20vw;
+  height: 15vh;
+  text-align: center;
+  padding: 30px 10px;
+  color: #333;
+  text-decoration: none;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cat-btn:hover {
+  background-color: #e0e0e0;
+}

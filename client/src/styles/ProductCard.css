@@ -1,0 +1,70 @@
+.scard {
+  position: relative;
+  width: 300px;
+  border: 1px solid rgb(215, 214, 214) !important;
+  border-radius: 8px;
+  height: 400px;
+  margin: 20px 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styles */
+.scard-image {
+  width: 100%;
+  height: 320px;
+  object-fit: fill;
+  border-radius: 8px;
+  position: relative; /* Position relative for absolute positioning of the button */
+}
+.scard:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Card body styles */
+.scard-body {
+  display: flex;
+  justify-content: space-between;
+  margin: 0%;
+  padding: 0px 15px;
+}
+
+/* Product price styles */
+
+/* Star rating styles */
+.star {
+  text-align: center;
+  margin-top: 2px;
+}
+
+/* Quick view button styles */
+.quick-view-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 16px;
+  transform: translate(-50%, -50%);
+  background-color: #333;
+  color: #fff;
+  padding: 6px 9px;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.quick-view-btn:hover {
+  background-color: #fff;
+  color: #333;
+}
+.details h5 {
+  margin: 0px;
+}
+
+/* Hover styles for the button */
+.scard:hover .quick-view-btn {
+  top: 70%; /* Move the shop-now link to the original position of the text-overlay */
+  opacity: 1; /* Optional: Add a scale effect */
+}

@@ -1,0 +1,117 @@
+.login-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 55vw;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: auto;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.login-form-image img {
+  max-width: 500px;
+  border-radius: 15px;
+  flex: 1;
+  margin: 10px;
+}
+
+.forgotten {
+  text-align: end;
+  margin: 10px 0px;
+}
+
+.create-account-link {
+  text-decoration: none;
+}
+
+.title-in {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  color: #facc6b;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  margin-top: 5vh;
+  font-family: "Playfair Display", serif;
+  color: #facc6b;
+}
+
+.form-control-login {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #facc6b;
+  color: #fff;
+  border: none;
+}
+
+.login-btn:hover {
+  background-color: #f4ac32;
+}
+
+.secondary-login-btn {
+  background-color: #6c757d;
+}
+
+.secondary-login-btn:hover {
+  background-color: #5a6268;
+}
+
+.forgot-password-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+}
+
+.login-btn {
+  margin-top: 12px;
+}
+.create-account-forgot {
+  text-align: center;
+  font-size: 14px;
+  margin: 10px;
+}
+/* Media Queries */
+@media (max-width: 1400px) {
+  .login-form-container {
+    max-width: 60vw;
+  }
+  .login-form-image img {
+    max-width: 300px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-form-image {
+    display: none;
+  }
+  .login-form-container {
+    max-width: 90vw;
+    height: 400px;
+  }
+}
